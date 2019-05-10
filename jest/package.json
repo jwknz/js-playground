@@ -1,0 +1,15 @@
+{
+  "name": "js-playground",
+  "main": "app.js",
+  "scripts": {
+    "jest-start": "node app",
+    "jest-test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "jest": "^24.8.0",
+    "jest-message-util": "^24.8.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "js-playground",
+  "quokka": {
+    "plugins": [
+      "jsdom-quokka-plugin"
+    ]
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "babel-core": "^6.26.3",
+    "babel-register": "^6.26.0",
+    "jsdom-quokka-plugin": "^1.0.14"
+  }
+}
