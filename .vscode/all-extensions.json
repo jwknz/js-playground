@@ -3,7 +3,8 @@
   // INFO If I want to install all of my extensions :-)
   // TODO need to catergorize them
 
-	"recommendations": [
+  "recommendations":
+  [
     "aaron-bond.better-comments",
     "adisreyaj.swagger-snippets",
     "akamud.vscode-theme-onelight",
@@ -12,6 +13,7 @@
     "Arjun.swagger-viewer",
     "auchenberg.vscode-browser-preview",
     "bbenoist.vagrant",
+    "chrmarti.regex",
     "code-share.code-share",
     "codezombiech.gitignore",
     "CoenraadS.bracket-pair-colorizer",
@@ -33,10 +35,14 @@
     "hbenl.vscode-test-explorer",
     "hollowtree.vue-snippets",
     "humao.rest-client",
+    "jblack.mysql-scratchpad",
     "kevinkyang.auto-comment-blocks",
     "kuscamara.electron",
+    "lndgalante0765.regex-share",
+    "lostfields.nodejs-repl",
     "lostintangent.vsls-whiteboard",
     "marcostazi.VS-code-vagrantfile",
+    "matijarmk.dotnet-core-commands",
     "mfery.gitexplorer",
     "mhutchie.git-graph",
     "mkloubert.vscode-http-client",
@@ -66,6 +72,7 @@
     "ritwickdey.LiveServer",
     "rtbenfield.vscode-jest-test-adapter",
     "snipit.vscode-extension",
+    "t-sauer.vscode-babel-repl",
     "TaodongWu.ejs-snippets",
     "tomoki1207.pdf",
     "VisualStudioExptTeam.vscodeintellicode",

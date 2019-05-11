@@ -13,6 +13,13 @@
   "terminal.integrated.fontFamily": "FiraCode-Light, Menlo, Monaco, 'Courier New', monospace",
 
   /***************************/
+  /*          ZenMode        */
+  /***************************/
+
+  "zenMode.hideLineNumbers": true, //false === coding || true === writing
+  "zenMode.centerLayout": true, //false === coding || true === writing
+
+  /***************************/
   /*         WORKBENCH       */
   /***************************/
 
@@ -76,8 +83,9 @@
   /*         MARKDOWN        */
   /***************************/
 
-  //"markdown-pdf.includeDefaultStyles": true,
-  //"markdown-pdf.highlight": false,
+  //Turn to true if you are exporting pdf's
+  "markdown-pdf.includeDefaultStyles": false,
+  "markdown-pdf.highlight": false,
 
   /***************************/
   /*   DATABASE CONNECTIONS  */
