@@ -1,0 +1,178 @@
+{
+  // INFO ALL OF MY SETTINGS BACKUP MAY-2019
+  /***************************/
+  /*   EDITOR AND TERMINAL   */
+  /***************************/
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "FiraCode-Light, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.renderIndentGuides": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "FiraCode-Light, Menlo, Monaco, 'Courier New', monospace",
+
+  /***************************/
+  /*         WORKBENCH       */
+  /***************************/
+
+  "files.autoSaveDelay": 1000,
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": 0,
+  "workbench.editor.closeEmptyGroups" :false,
+  "workbench.tips.enabled" :false,
+  "workbench.startupEditor" :"none",
+  "workbench.settings.editor": "json",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.showTabs": true,
+  "workbench.colorTheme": "Electron",
+  "workbench.colorCustomizations": {
+    "statusBar.noFolderBackground": "#880088",
+    "statusBar.background": "#03f",
+    "statusBar.foreground": "#fff",
+    "[Electron]": {
+      "editorLineNumber.foreground": "#fff",
+      "editorLineNumber.activeForeground": "#0ff",
+      "gitDecoration.ignoredResourceForeground": "#777",
+      "tab.activeBorder": "#bada55",
+      "tab.activeBackground": "#5ada1a77",
+      "tab.activeForeground": "#fff"
+    },
+    "[Atom One Light]": {
+      "editorLineNumber.foreground": "#888",
+      "editorLineNumber.activeForeground": "#222",
+      "gitDecoration.ignoredResourceForeground": "#777",
+      "tab.activeBorder": "#bada55",
+      "tab.activeBackground": "#5ada1a77",
+      "tab.activeForeground": "#222",
+      "editor.background": "#F0EEEE",
+    }
+  },
+
+  /***************************/
+  /*           GIT           */
+  /***************************/
+  
+  "git.confirmSync": false,
+  "git.defaultCloneDirectory": "/Users/jeff_mba/AllTheGits",
+
+  /***************************/
+  /*           NPM           */
+  /***************************/
+
+  "npm.enableScriptExplorer": true,
+
+  /***************************/
+  /*           DEBUG         */
+  /***************************/
+
+  "debug.node.autoAttach": "on",
+  "debug.toolBarLocation": "docked",
+  "debug.openDebug": "openOnSessionStart",
+  "debug.openExplorerOnEnd": true,
+  "debug.console.fontSize": 16,
+
+  /***************************/
+  /*         MARKDOWN        */
+  /***************************/
+
+  //"markdown-pdf.includeDefaultStyles": true,
+  //"markdown-pdf.highlight": false,
+
+  /***************************/
+  /*   DATABASE CONNECTIONS  */
+  /***************************/
+
+  "mssql.connections": [
+      {
+          "server": "localhost",
+          "database": "",
+          "authenticationType": "SqlLogin",
+          "user": "sa",
+          "password": "",
+          "emptyPasswordInput": false,
+          "savePassword": true
+      }
+  ],
+
+  "sqltools.connections": [
+    {
+      "askForPassword": false,
+      "connectionTimeout": 30,
+      "database": "containerdb",
+      "dialect": "MySQL",
+      "name": "localhost",
+      "password": "user1234",
+      "port": 3306,
+      "server": "127.0.0.1",
+      "username": "user"
+    }
+  ],
+
+  /***************************/
+  /*    BRACKETS COLOR       */
+  /***************************/
+
+  "bracketPairColorizer.colorMode": "Consecutive",
+
+  /***************************/
+  /*         JEST            */
+  /***************************/
+
+  "jest.debugMode": true,
+
+  /***************************/
+  /*     BETTER COMMENTS     */
+  /***************************/
+
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+      {
+        "tag": "!",
+        "color": "#FF2D00",
+        "strikethrough": false,
+        "backgroundColor": "transparent"
+      },
+      {
+        "tag": "?",
+        "color": "#3498DB",
+        "strikethrough": false,
+        "backgroundColor": "transparent"
+      },
+      {
+        "tag": "//",
+        "color": "#474747",
+        "strikethrough": true,
+        "backgroundColor": "transparent"
+      },
+      {
+        "tag": "todo",
+        "color": "#FF8C00",
+        "strikethrough": false,
+        "backgroundColor": "transparent"
+      },
+      {
+        "tag": "*",
+        "color": "#98C379",
+        "strikethrough": false,
+        "backgroundColor": "transparent"
+      },
+      {
+        "tag": "INFO",
+        "color": "#FFFF00",
+        "strikethrough": false,
+        "backgroundColor": "transparent"
+      },
+      {
+        "tag": ">>",
+        "color": "#FFFF00",
+        "strikethrough": false,
+        "backgroundColor": "transparent"
+      }
+    ],
+    "workbench.sideBar.location": "left",
+    "breadcrumbs.enabled": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    
+}
